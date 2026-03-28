@@ -16,7 +16,7 @@ public class JogoAdivinhacao {
         System.out.println("JOGO DO NÚMERO SECRETO");
         System.out.println("Tente adivinhar o número secreto entre 1 a 100. Você tem 5 tentativas!");
 
-        while(tentativas>5){
+        while(tentativas<5){
             System.out.println("Palpite: ");
             palpite = leitura.nextInt();
             tentativas++;
